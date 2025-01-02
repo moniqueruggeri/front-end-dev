@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo&family=Nunito+Sans:wght@400;700;900&display=swap")
+
+$primary-color: #57FF84
+$background-color: #282828
+$background-img: url("/img/grade.svg")
+$gradient-color: linear-gradient(90deg, #57FF84, #34994F)
+$main-font: 'Baloo', cursive
+$text-font: 'Nunito Sans', sans-serif
+$text-color: white
+    
+body
+    font-family: $text-font
+    background-color: $background-color
+    background-image: $background-img
+    background-position: center
+    background-blend-mode: overlay
+    color: $text-color
+    overflow-x: hidden
+
+    .color
+        color: $primary-color
+
+    .stroke
+        color: transparent
+        -webkit-background-clip: text
+        background-clip: text

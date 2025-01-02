@@ -1,0 +1,38 @@
+@import "../styles"
+
+.experiences
+  display: flex
+  flex-direction: column
+  gap: 16px // Adiciona espaçamento entre os itens
+
+  // Estilos gerais para cada experiência
+  .experience
+    display: flex
+    flex-direction: column
+    text-align: left // Padrão: alinha para a esquerda
+    gap: 8px // Espaçamento entre os elementos internos
+
+    &:nth-of-type(odd) // Ímpares: alinha à direita
+      .experienceHeader
+        flex-direction: row-reverse // Ímpares: inverter direção
+
+    &:nth-of-type(even) // Pares: mantém alinhamento à esquerda
+      text-align: right
+
+    .experienceHeader
+      display: flex
+      justify-content: space-between
+      align-items: center
+
+      .experienceJob
+        font-size: 24px
+        font-weight: 800
+        color: $primary-color
+
+
+  // Título de Freelance
+  .freelanceTitle
+    text-align: center
+    font-weight: bold
+    color: red
+    padding: 16px 0
