@@ -8,9 +8,45 @@
     height: 100vh
     gap: 32px
 
+    .titleHome
+        overflow: hidden
+        display: flex
+        justify-content: center
+        position: relative
+        height: 20vh
+        width: 100vw
+        align-items: center
+
     h1
         font-family: $main-font
         font-size: 80px
         line-height: 90%
         margin: 0
         text-align: center
+
+    .stroke
+        -webkit-text-stroke: .5px $primary-color
+        font-family: $main-font
+        font-size: 80px
+        position: absolute
+        line-height: 90%
+        margin-top: -16px
+        text-align: center
+        z-index: -2
+        opacity: 50%
+        font-weight: 500
+        margin-top: 0
+
+    .stroke-left
+        margin-left: -290px
+        overflow: hidden
+
+    
+    .stroke-right
+        margin-right: -290px
+        overflow: hidden
+
+    img
+        position: absolute
+        margin-left: -260px
+        margin-top: 140px
