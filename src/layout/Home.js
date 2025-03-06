@@ -28,6 +28,7 @@ const Home = () => {
         link={"/projects"}
         variant="default"
       />
+      <h2 className="stroke coming"><span></span>COMING SOON...</h2>
     </main>
   );
 };
