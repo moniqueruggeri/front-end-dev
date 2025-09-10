@@ -7,7 +7,7 @@ const Cards = () => {
   return (
     <div className="cards">
       <Card tagItems={skoobTags} text={"Literatvs"} link={"/literatvs"} />
-      <Card tagItems={skoobTags} text={"Skoob"} />
+      <Card tagItems={skoobTags} text={"AniJourney"} />
       <Card tagItems={skoobTags} text={"Skoob"} />
     </div>
   );

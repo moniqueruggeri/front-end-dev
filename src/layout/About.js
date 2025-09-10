@@ -34,18 +34,15 @@ const About = () => {
           I'm <span className="color">Monique</span>,
         </Title>
         <p>
-          Lorem ipsum dolor sit amet consectetur. Etiam pharetra porttitor arcu
-          dignissim in amet rhoncus. Tempor dui enim pharetra turpis dolor
-          mauris. Vitae quis maecenas velit bibendum pretium congue pretium
-          velit. Enim sit aliquam sed ipsum turpis in vulputate scelerisque
-          nullam. Id diam at arcu neque proin.
+          I’m a Front-end developer passionate about building clean, intuitive
+          interfaces that make digital experiences enjoyable. I enjoy
+          collaborating with teams to turn ideas into polished products, and I’m
+          always learning new tools and techniques to improve the way users
+          interact with technology.
         </p>
         <p>
-          Venenatis et lorem turpis massa. Mi sit senectus et turpis risus
-          tincidunt. Malesuada convallis fringilla nisl at. Ac fermentum commodo
-          magna nec egestas posuere. Fermentum et felis vulputate id nulla
-          cursus sit dui sodales. Nec faucibus porta tincidunt ac ipsum.
-          Imperdiet tincidunt molestie turpis consequat.
+          I believe great products come from great teamwork, and I’m excited to
+          contribute my skills to create meaningful, user-focused solutions.
         </p>
       </div>
 
@@ -68,7 +65,7 @@ const About = () => {
             place={"Fressen Joias"}
             time={"2017 - 2018"}
             jobDescription={
-              "Lorem ipsum dolor sit amet consectetur. Etiam pharetra porttitor arcu dignissim in amet rhoncus. Tempor dui enim pharetra turpis dolor mauris."
+              "Worked with Serzzare and Fressen Joias to create sleek, engaging visuals for social media and campaigns. Focused on turning brand identity into elegant, approachable designs that highlight products and connect with audiences. Led concept development, art direction, and visual storytelling, ensuring every piece was consistent and impactful. Blended creativity with strategy to deliver campaigns that stood out and strengthened brand presence."
             }
           />
           <Experience
@@ -78,7 +75,7 @@ const About = () => {
             place={"Agência Rooftop"}
             time={"2020 - 2022"}
             jobDescription={
-              "Lorem ipsum dolor sit amet consectetur. Etiam pharetra porttitor arcu dignissim in amet rhoncus. Tempor dui enim pharetra turpis dolor mauris."
+              "Led the visual strategy and execution for various brands, focusing on creating cohesive and engaging content across digital platforms. Developed design concepts, layouts, and motion graphics that effectively communicated brand messages and resonated with target audiences. Collaborated closely with marketing teams to ensure consistency and alignment with brand identity, delivering high-quality visuals that enhanced user engagement and brand presence."
             }
           />
         </div>
@@ -90,41 +87,21 @@ const About = () => {
             BtnText={">"}
             link={"/"}
             job={"Graphic Designer"}
-            place={"Lab0304"}
-            time={"2018"}
+            place={"Única Marketing Digital"}
+            time={"2019 | 2021 - First Experience"}
             jobDescription={
-              "Lorem ipsum dolor sit amet consectetur. Etiam pharetra porttitor arcu dignissim in amet rhoncus. Tempor dui enim pharetra turpis dolor mauris."
+              "Created dynamic motion graphics and cohesive visual elements to enhance storytelling and audience engagement. Developed clean, professional designs that aligned with project goals and brand identity. Ensured all visual solutions were aesthetically appealing, strategically effective, and resonated with target audiences."
             }
           />
 
-          <Experience
-            BtnText={"<"}
-            link={"/"}
-            job={"Art Director"}
-            place={"Única Marketing Digital"}
-            time={"2019 - 2022"}
-            jobDescription={
-              "Lorem ipsum dolor sit amet consectetur. Etiam pharetra porttitor arcu dignissim in amet rhoncus. Tempor dui enim pharetra turpis dolor mauris."
-            }
-          />
           <Experience
             BtnText={">"}
             link={"/"}
             job={"Art Director"}
             place={"Estela Agendamentos"}
-            time={"2020 - 2022"}
+            time={"2020 - 2022 - Last Experience"}
             jobDescription={
-              "Lorem ipsum dolor sit amet consectetur. Etiam pharetra porttitor arcu dignissim in amet rhoncus. Tempor dui enim pharetra turpis dolor mauris."
-            }
-          />
-          <Experience
-            BtnText={"<"}
-            link={"/"}
-            job={"Art Director"}
-            place={"Fressen Joias"}
-            time={"2021 - 2022"}
-            jobDescription={
-              "Lorem ipsum dolor sit amet consectetur. Etiam pharetra porttitor arcu dignissim in amet rhoncus. Tempor dui enim pharetra turpis dolor mauris."
+              "Developed dynamic visual concepts and motion graphics to enhance brand storytelling and audience engagement. Focused on creating cohesive and visually appealing content that aligns with brand identity and resonates with target audiences. Collaborated closely with clients to ensure that design solutions effectively communicated their messages and objectives."
             }
           />
         </div>
@@ -133,11 +110,11 @@ const About = () => {
       <div className="aboutEducation">
         <Title>Education</Title>
         <Experience
-          job={"Multimedia Producer"}
+          job={"Technologist in Multimedia Production"}
           place={"Senac"}
           time={"2014  - 2016"}
           jobDescription={
-            "Lorem ipsum dolor sit amet consectetur. Etiam pharetra porttitor arcu dignissim in amet rhoncus. Tempor dui enim pharetra turpis dolor mauris."
+            "A comprehensive undergraduate program combining multimedia design, web development, and user experience. Covered areas include graphic design, typography, photography, 2D/3D animation, illustration, audiovisual production, and digital branding, with practical projects and professional development."
           }
         />
       </div>
@@ -148,12 +125,8 @@ const About = () => {
         </Title>
 
         <div className="courses">
-          <Courses 
-          courseName={"UX/UI"}
-          courseList={uxCourses} />
-          <Courses 
-          courseName={"Front End"} 
-          courseList={frontEndCourses}/>
+          <Courses courseName={"UX/UI"} courseList={uxCourses} />
+          <Courses courseName={"Front End"} courseList={frontEndCourses} />
         </div>
       </div>
       <Icons />

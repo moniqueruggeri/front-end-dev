@@ -8,7 +8,7 @@ const Home = () => {
     <main className="home">
       <Icons />
       <div className="titleHome">
-        <h2 className="stroke stroke-left">
+        <h2 className="stroke stroke-left pisca">
           front <br />
           end dev
         </h2>
@@ -16,19 +16,23 @@ const Home = () => {
           front <br />
           end dev
         </h1>
-        <h2 className="stroke stroke-right">
+        <h2 className="stroke stroke-right pisca">
           front <br />
           end dev
         </h2>
         <img src={monique} alt="" />
       </div>
-      <Button
-        action={"expand"}
-        text={"Explore"}
-        link={"/projects"}
-        variant="default"
-      />
-      <h2 className="stroke coming"><span></span>COMING SOON...</h2>
+      <div className="buttons">
+        <Button action={"navigate"} link={"/about"} text={"Resume"} />
+        
+        <Button
+          action={"expand"}
+          text={"Projects"}
+          link={"/projects"}
+          variant="default"
+        />
+      </div>
+      {/* <h2 className="stroke coming"><span></span>COMING SOON...</h2> */}
     </main>
   );
 };
