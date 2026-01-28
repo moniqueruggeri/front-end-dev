@@ -1,0 +1,66 @@
+const Modulos = () => {
+    return (
+        <main class="learning-container">
+        <h1 class="titulo-destaque">Computer Programmer Course</h1>
+        <h3 class="learning-subtitle">Program and Documentation</h3>
+
+        <div class="learning-nav">
+            <a href="docs/CVFERNANDANHENRIQUES.pdf" target="_blank" class="btn btn-primary">📄 Resume</a>
+            <a href="index.html" class="btn-nav">See my projects</a>
+            <a href="sobremim.html" class="btn-nav">About Me</a>
+        </div>
+
+        <div class="table-wrapper">
+            <table class="learning-table">
+                <thead>
+                    <tr>
+                        <th>Code</th>
+                        <th>N.º</th>
+                        <th>Module</th>
+                        <th>Hours</th>
+                        <th>Docs</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr><td>0769</td><td>1</td><td>Computer Internal Architecture</td><td>25</td><td><a href="docs/UFCD769.pdf" target="_blank">View PDF</a></td></tr>
+                    <tr><td>0770</td><td>2</td><td>Devices and Peripherals</td><td>25</td><td><a href="docs/UFCD770.pdf" target="_blank">View PDF</a></td></tr>
+                    <tr><td>0771</td><td>3</td><td>Network Connections</td><td>25</td><td><a href="docs/UFCD771.pdf" target="_blank">View PDF</a></td></tr>
+                    <tr><td>0797</td><td>4</td><td>Operating Systems – Typologies</td><td>25</td><td><a href="docs/UFCD797.pdf" target="_blank">View PDF</a></td></tr>
+                    <tr><td>0798</td><td>5</td><td>Utilities</td><td>25</td><td><a href="docs/UFCD798.pdf" target="_blank">View PDF</a></td></tr>
+                    <tr><td>0799</td><td>6</td><td>Local Network Systems</td><td>50</td><td><a href="docs/UFCD799.pdf" target="_blank">View PDF</a></td></tr>
+                    <tr><td>0800</td><td>7</td><td>Additional Network Services</td><td>50</td><td><a href="docs/UFCD800.pdf" target="_blank">View PDF</a></td></tr>
+                    <tr><td>0801</td><td>8</td><td>Local Network Administration</td><td>50</td><td><a href="docs/UFCD801.pdf" target="_blank">View PDF</a></td></tr>
+                    <tr><td>0802</td><td>9</td><td>Computational Processing</td><td>25</td><td><a href="docs/UFCD802.pdf" target="_blank">View PDF</a></td></tr>
+                    <tr><td>7846</td><td>10</td><td>Informatics – Basic Concepts</td><td>50</td><td><a href="docs/UFCD7846.pdf" target="_blank">View PDF</a></td></tr>
+                    <tr><td>0804</td><td>11</td><td>Algorithms</td><td>25</td><td><a href="docs/UFCD804.pdf" target="_blank">View PDF</a></td></tr>
+                    <tr><td>0805</td><td>12</td><td>Data Structures</td><td>25</td><td><a href="docs/UFCD805.pdf" target="_blank">View PDF</a></td></tr>
+                    <tr><td>0806</td><td>13</td><td>Programming Methodology Principles</td><td>25</td><td><a href="docs/UFCD806.pdf" target="_blank">View PDF</a></td></tr>
+                    <tr><td>0809</td><td>14</td><td>Programming in C/C++ – Fundamentals</td><td>50</td><td><a href="docs/UFCD809.pdf" target="_blank">View PDF</a></td></tr>
+                    <tr><td>0810</td><td>15</td><td>Programming in C/C++ – Advanced</td><td>50</td><td><a href="docs/UFCD810.pdf" target="_blank">View PDF</a></td></tr>
+                    <tr><td>0811</td><td>16</td><td>Systems Analysis</td><td>50</td><td><a href="docs/UFCD811.pdf" target="_blank">View PDF</a></td></tr>
+                    <tr><td>10788</td><td>17</td><td>SQL Language Fundamentals</td><td>25</td><td><a href="docs/UFCD10788.pdf" target="_blank">View PDF</a></td></tr>
+                    <tr><td>3933</td><td>18</td><td>Database Administration for Programmers</td><td>50</td><td><a href="docs/UFCD3933.pdf" target="_blank">View PDF</a></td></tr>
+                    <tr><td>0816</td><td>19</td><td>Distributed Systems Programming – Java</td><td>50</td><td><a href="docs/UFCD816.pdf" target="_blank">View PDF</a></td></tr>
+                    <tr><td>10791</td><td>20</td><td>Web Application Development in Java</td><td>50</td><td><a href="docs/UFCD10791.pdf" target="_blank">View PDF</a></td></tr>
+                    <tr><td>3935</td><td>21</td><td>C# Programming</td><td>50</td><td><a href="docs/UFCD3935.pdf" target="_blank">View PDF</a></td></tr>
+                    <tr><td>10792</td><td>22</td><td>ASP.NET Core MVC Development</td><td>50</td><td><a href="docs/UFCD10792.pdf" target="_blank">View PDF</a></td></tr>
+                    <tr><td>10793</td><td>23</td><td>Python Fundamentals</td><td>50</td><td><a href="docs/UFCD10793.pdf" target="_blank">View PDF</a></td></tr>
+                    <tr><td>10794</td><td>24</td><td>Advanced Python Programming</td><td>50</td><td><a href="docs/UFCD10794.pdf" target="_blank">View PDF</a></td></tr>
+                    <tr><td>10795</td><td>25</td><td>Secure Software Development</td><td>25</td><td><a href="docs/UFCD10795.pdf" target="_blank">View PDF</a></td></tr>
+                    <tr><td>10790</td><td>26</td><td>Programming Project</td><td>25</td><td><a href="docs/UFCD10790.pdf" target="_blank">View PDF</a></td></tr>
+                </tbody>
+
+                <tfoot>
+                    <tr>
+                        <td colspan="3">Total Workload:</td>
+                        <td>1000</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+    </main>
+    )
+}
+
+export default Modulos

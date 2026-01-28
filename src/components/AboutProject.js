@@ -1,17 +1,18 @@
-import GalleryImages from "./GalleryImages";
 import Title from "./Title";
-import "../sass/components/aboutProject.sass"
+import "../sass/components/aboutProject.sass";
 
-const AboutProject = ({ ProjectName, ProjectDescription1, ProjectDescription2 }) => {
+const AboutProject = ({ ProjectName, Status, Overview, MainPoints, Techs }) => {
   return (
     <div className="aboutProject">
       <Title>{ProjectName}</Title>
-      <p>
-        {ProjectDescription1}
-        <br/>
-        {ProjectDescription2}
-      </p>
-      <GalleryImages/>
+      <span>{Status}</span>
+      <div className="descricaoProjeto">
+        <p>{Overview}</p>
+        <div className="techs">
+          <p>{MainPoints}</p>
+          <p>{Techs}</p>
+        </div>
+      </div>
     </div>
   );
 };

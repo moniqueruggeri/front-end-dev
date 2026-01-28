@@ -1,5 +1,5 @@
 @import "../styles"
-    
+
 .literatvs
     padding: 40px 16px 0 16px
     display: flex
@@ -7,11 +7,31 @@
     gap: 32px
 
     img
-        height: 25vh
-        object-fit: cover
+        border-radius: 16px
 
-    .topTags
+    .buttons
+        display: flex
+        flex-wrap: wrap
+        gap: 24px
 
-        .tagItem
-            background-color: $primary-color
-            color: $background-color
+        a
+            flex: 1
+            text-align: center
+
+    @media ( min-width: 768px )
+        img
+            width: 750px
+            margin: auto
+            border-radius: 24px
+
+        .buttons
+            display: flex
+            gap: 16px
+            justify-content: center
+            width: 60%
+            margin: auto
+            padding-bottom: 3rem
+
+            a
+                flex: 1
+                text-align: center

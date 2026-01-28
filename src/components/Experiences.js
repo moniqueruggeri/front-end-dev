@@ -1,7 +1,7 @@
 import "../sass/components/experience.sass";
 import Button from "./Button";
 
-const Experience = ({ BtnText, job, place, time, jobDescription }) => {
+const Experience = ({ BtnText, job, place, time, jobDescription, link }) => {
   return (
     <div className="experience job">
       <div className="experienceTitle">
