@@ -30,61 +30,63 @@ const About = () => {
     <div className="about">
       <div className="aboutText">
         <Title>
-          Hi! <br />
-          I'm <span className="color">Monique</span>,
+          Olá! <br />
+          Sou a <span className="color">Monique</span>,
         </Title>
         <p>
-          I’m a Frontend Developer & Designer with a background in graphic
-          design and UX, focused on building clean, responsive interfaces and
-          meaningful digital experiences.
+          sou desenvolvedora front-end e designer, com formação em design
+          gráfico e UX, focada na criação de interfaces limpas, responsivas e
+          experiências digitais com significado.
         </p>
       </div>
 
       <div className="aboutExperience">
         <Title>
-          Work <span className="stroke">Experience</span>
+          Experiência <span className="stroke">Profissional</span>
         </Title>
 
         <div className="experiences">
           <Experience
             BtnText={">"}
             link={"/"}
-            job={"Art Director"}
+            job={"Diretora de Arte"}
             place={"Fressen, Unica, Rooftop"}
             time={"2017 | 2022"}
             jobDescription={
-              "Role overview Creative direction & branding Campaigns & digital assets Cross-team collaboration"
+              "Direção criativa e branding · Campanhas e ativos digitais · Colaboração entre equipas"
             }
           />
         </div>
       </div>
 
       <div className="aboutEducation">
-        <Title>Education</Title>
+        <Title>Formação</Title>
         <Experience
-          job={"Technologist in Multimedia Production"}
+          job={"Tecnólogo em Produção Multimédia"}
           place={"Senac"}
           time={"2014  - 2016"}
           jobDescription={
-            "Focused on digital content creation, design and audiovisual media."
+            "Formação focada na criação de conteúdos digitais, design e meios audiovisuais."
           }
         />
 
         <Experience
-          job={"Computer Programmer"}
+          job={"Programadora Informática"}
           place={"IEFP"}
-          time={"2025  - 2026"}
+          time={"2025  -  Atualmente"}
           jobDescription={
-            "Technical training in software development, with foundations in algorithms, databases, computer networks and programming using C/C++, Python, C#, Java and COBOL."
+            "Formação técnica em desenvolvimento de software, com bases em algoritmos, bases de dados, redes de computadores e programação em C/C++, Python, C# e COBOL."
           }
         />
 
-          <Link to="/modulos" className="modulos">Ver Módulos</Link>
+        <Link to="/modulos" className="modulos">
+          Ver Módulos
+        </Link>
       </div>
 
       <div className="aboutOtherCourses">
         <Title>
-          Other <span className="stroke">Courses</span>
+        Cursos <span className="stroke">Adicionais</span>
         </Title>
 
         <div className="courses">
@@ -92,7 +94,9 @@ const About = () => {
           <Courses courseName={"Front End"} courseList={frontEndCourses} />
         </div>
       </div>
-      <a href="/MoniqueResumeFEPt.pdf" target="blank" className="btn">Download CV</a>
+      <a href="/MoniqueResumeFEPt.pdf" target="blank" className="btn">
+        Download CV
+      </a>
       <Icons />
     </div>
   );

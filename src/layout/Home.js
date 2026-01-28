@@ -23,11 +23,11 @@ const Home = () => {
         <img src={monique} alt="" />
       </div>
       <div className="buttons">
-        <Button action={"navigate"} link={"/about"} text={"Resume"} />
+        <Button action={"navigate"} link={"/about"} text={"Resumo"} />
         
         <Button
           action={"expand"}
-          text={"Projects"}
+          text={"Projetos"}
           link={"/projects"}
           variant="default"
         />

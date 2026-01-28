@@ -7,7 +7,7 @@ const LearningLab = () => {
     <div className="literatvs">
       <AboutProject
         ProjectName={"Learning Lab"}
-        Status={"Work in Progress · Back-end"}
+        Status={"Em desenvolvimento · Back-end e Front-end"}
         Overview={
           "Repositório organizado de estudos e testes em desenvolvimento, com projetos frontend e backend para praticar diferentes linguagens, ferramentas e conceitos de programação."
         }

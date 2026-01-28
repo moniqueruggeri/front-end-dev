@@ -8,7 +8,7 @@ const AmigoSecretoDasCores = () => {
     <div className="literatvs">
       <AboutProject
         ProjectName={"Amigo Secreto das Cores"}
-        Status={"Work in Progress · Front-end"}
+        Status={"Em desenvolvimento · Front-end"}
         Overview={
             "Aplicação web para organizar sorteios de amigo secreto com foco em experiência visual e organização dos participantes."
         }
