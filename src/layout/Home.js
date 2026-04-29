@@ -24,13 +24,14 @@ const Home = () => {
       </div>
       <div className="buttons">
         <Button action={"navigate"} link={"/about"} text={"Resumo"} />
-        
+
         <Button
           action={"expand"}
           text={"Projetos"}
           link={"/projects"}
           variant="default"
         />
+
       </div>
       {/* <h2 className="stroke coming"><span></span>COMING SOON...</h2> */}
     </main>

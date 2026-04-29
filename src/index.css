@@ -40,3 +40,169 @@ button {
   outline: none; /* Remove o contorno ao focar (para browsers que aplicam isso) */
   box-sizing: border-box; /* Garante que o padding e as bordas não afetem as dimensões totais */
 }
+
+.navbar {
+  top: 0;
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar a {
+  color: white;
+  margin-right: 15px;
+  text-decoration: none;
+}
+
+.portfolio {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom: 10px;
+}
+
+.next {
+  width: 500px;
+  margin: auto;
+}
+
+.cover {
+  height: 86dvh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  gap: 20px;
+}
+
+.formando-formador {
+  display: flex;
+  gap: 32px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.titlePRA {
+  color: #57FF84;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.intro, .aboutmepra, .trabalhos, .balance, .future {
+  width: 800px;
+  margin: auto;
+  font-size: large;
+  height: 86dvh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  gap: 20px;
+}
+
+.descricao-trabalhos, .descricao-balanco {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.tech-hub {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.intro-p {
+  padding-bottom: 10px;
+}
+
+.intro-list {
+  padding-bottom: 10px;
+}
+
+.color-destaque {
+  color: #57FF84;
+  font-weight: bold;
+}
+
+.agradecimentos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 86dvh;
+  gap: 32px;
+  font-size: large;
+}
+
+.txtAgradecimentos {
+  width: 550px;
+}
+
+.ufcd-table {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 805px;
+  margin: auto;
+}
+
+table {
+  border: solid 1px #57FF84;
+}
+
+tbody {
+  display: flex;
+  flex-direction: column;
+}
+
+.ufcd-header {
+  display: flex;
+  padding-top: 10px;
+  border-bottom: solid 1px #57FF84;
+}
+
+.ufcd-nome {
+  text-align: left;
+  width: 500px;
+  text-transform: uppercase;
+  padding: 0 0 0 20px;
+}
+
+.ufcd-cod {
+  padding: 0 30px 0 10px;
+  text-align: center;
+  width: 100px;
+}
+
+.ufcd-hr {
+  padding: 0 25px 0 10px;
+  width: 120px;
+  text-align: center;
+}
+
+.ufcd-body {
+  display: flex;
+  justify-content: space-around;
+  border-bottom: solid 1px white;
+  padding: 10px 0 10px 0
+}
+
+.ufcd-pdf {
+  padding: 0 20px 0 0
+}
+
+.tabela-ufcd {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 30px 0 30px 0;
+
+}
