@@ -3,7 +3,7 @@ const sections = [
   { id: "portfolio", label: "Portfolio" },
   { id: "ack", label: "Agradecimentos" },
   { id: "intro", label: "Introdução" },
-  { id: "about", label: "Sobre Mim" },
+  { id: "aboutmepra", label: "Sobre Mim" },
   { id: "reflection", label: "UFCDs" },
   { id: "learning-lab", label: "Trabalhos"},
   { id: "balance", label: "Balanço" },
