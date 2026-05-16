@@ -5,7 +5,7 @@ const sections = [
   { id: "intro", label: "Introdução" },
   { id: "about", label: "Sobre Mim" },
   { id: "reflection", label: "UFCDs" },
-  { id: "lab", label: "Trabalhos"},
+  { id: "learning-lab", label: "Trabalhos"},
   { id: "balance", label: "Balanço" },
   { id: "future", label: "Futuro" },
 ];
